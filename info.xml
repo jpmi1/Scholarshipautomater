@@ -1,0 +1,3 @@
+<testdata>
+ <test fname="Jim" lname="smith" birth="08/14/1999" birthm="08" birthmfirst3letters="Aug" birthd="14" birthy="1999"  gender="Male" genders="M" race="White" address="108 summer street" city="smithfield" stateabrv="NC" state="North Carolina" zip="27136" phone="9199082130" studentstatus="High School Senior" schoolname="SmithField High" degreetype="Master" major="Computer Science" hgradyear="2016" hgradmonth="05" hgpa="4.0" hear="My High School" email="auto@gmail.com" username="pickarandomone" password="password123" />
+</testdata>

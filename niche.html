@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.suntrusteducation.com/" />
+<title>niche</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">niche</td></tr>
+</thead><tbody>
+<tr>
+	<td>loadTestData</td>
+	<td>file://C:\Users\JP\Downloads\Automation\Scholarship\info.xml</td>
+	<td></td>
+</tr>
+<tr>
+	<td>while</td>
+	<td>!testdata.EOF()</td>
+	<td></td>
+</tr>
+<tr>
+	<td>nextTestData</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>https://colleges.niche.com/scholarship/apply.aspx?utm_source=Scholarshipscom&amp;utm_medium=Referral&amp;utm_campaign=SCHnes&amp;source=scholarshipscom</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=aspnetForm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlEnrolled</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlEnrolled</td>
+	<td>label=not currently enrolled in college or graduate school</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;notEnrolled&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlRoleNotEnrolled</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlRoleNotEnrolled</td>
+	<td>label=looking at colleges for myself</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;HSstudent&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_txtEmail</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_txtEmail</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtEmail</td>
+	<td>${email}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtUsername</td>
+	<td>${username}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtPassword1</td>
+	<td>${password}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtPassword2</td>
+	<td>${password}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_txtFirstName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtFirstName</td>
+	<td>${fname}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtLastName</td>
+	<td>${lname}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtBirthDate</td>
+	<td>${birth}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlGender</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlGender</td>
+	<td>label=${gender}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlRace</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlRace</td>
+	<td>label=White</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlReligion</td>
+	<td>label=I prefer not to answer</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;I prefer not to answer&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlHighSchool_baseAutocomplete_txtInput</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlHighSchool_baseAutocomplete_txtInput</td>
+	<td>${schoolname}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hsSelection</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_txtHSgrad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtHSgrad</td>
+	<td>${hgradyear}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtGPA</td>
+	<td>${hgpa}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='ctl00_mainContentDiv']/div/div[2]/fieldset[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_txtHomePhone</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtHomePhone</td>
+	<td>${phone}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_txtAddress1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtAddress1</td>
+	<td>${address}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_txtCity</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtCity</td>
+	<td>${city}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlState</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlState</td>
+	<td>label=${state}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ctl00_MainContentPlaceholder_ddlState &gt; option[value=&quot;CA&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_txtZip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtZip</td>
+	<td>${zip}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_txtMajor_baseAutocomplete_txtInput</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ctl00_MainContentPlaceholder_txtMajor_baseAutocomplete_txtInput</td>
+	<td>${major}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlDegreeType</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ctl00_MainContentPlaceholder_ddlDegreeType</td>
+	<td>label=Bachelor's</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;Bachelor&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_agreement_agreeBox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_cbEmailOpt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=label.contact-pref</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_rbContactOnlyYes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td>3000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_btnSubmit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td>3000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_rptOffers_ctl00_cbClient</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl00_MainContentPlaceholder_cbCheggOffer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=ctl00_MainContentPlaceholder_btnSubmit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>endWhile</td>
+	<td></td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
